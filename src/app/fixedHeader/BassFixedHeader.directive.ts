@@ -29,7 +29,6 @@ export class BassFixedHeaderDirective implements OnInit, OnDestroy, OnChanges {
   @Input() tableTHeadId: string;
   @Input() tableTBodyId: string;
   @Input() tableTHeadTrId: string;
-  @Input() extraTopPx: number; // maybe for sub header ( px )
   @Input() pageUpdated: boolean; // fire to resize scroll ues (pageUpdated = !pageUpdated)
   @Input() pageDestored: boolean; // fire to remove header when tab change => ("with cache")
 
