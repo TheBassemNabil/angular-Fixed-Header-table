@@ -17,7 +17,7 @@ export class FixedHeaderComponent implements OnInit {
   constructor(private httpClient: HttpClient){}
 
   ngOnInit() {
-    this.httpClient.get("assets/data.json").subscribe(data =>{
+    this.httpClient.get("./data.json").subscribe(data =>{
       this.dataList = data;
     })
   }
