@@ -1,0 +1,63 @@
+
+  #fixedItems {
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  .BassTblScroll {
+    position: fixed;
+    top: 0;
+    left: auto;
+    width: inherit;
+    z-index: 30;
+    overflow: hidden;
+    /* margin-left: 20px; */
+    text-align: left!important;
+  }
+  .heightAndwidth{
+      width: 250px !important;
+      max-width: 250px !important;
+      min-width: 250px !important;
+      height: 50px !important;
+  }
+  .thStyles {
+    background-color: #ffeeba;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+  }
+  #fixedItems {
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  .BassTblScroll {
+    position: fixed;
+    top: 0;
+    left: auto;
+    width: inherit;
+    z-index: 30;
+    overflow: hidden;
+    /* margin-left: 20px; */
+    text-align: left!important;
+  }
+  .heightAndwidth{
+      width: 250px !important;
+      max-width: 250px !important;
+      min-width: 250px !important;
+      height: 50px !important;
+  }
+  .thStyles {
+    background-color: #ffeeba;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+  }
