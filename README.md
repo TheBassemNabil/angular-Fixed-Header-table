@@ -35,7 +35,7 @@ Live demo can be found here =>
 
 ```html
 <div class="overflow-auto p-2 " bassFixedHeaderDirective [tableId]="'cutomTableId'"
-    [tableTHeadId]="'cutomTableTHeadId'" [extraTopPx]="50" [tableTHeadTrId]="'cutomTableTHeadTrId'"
+    [tableTHeadId]="'cutomTableTHeadId'" [tableTHeadTrId]="'cutomTableTHeadTrId'"
     [tableTBodyId]="'cutomTableTBodyId'" [pageUpdated]="pageUpdated" [pageDestored]="pageDestored">
     <table id="cutomTableId" class="table table-striped table-bordered table-hover">
       <thead id="cutomTableTHeadId">
