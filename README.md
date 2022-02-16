@@ -63,7 +63,7 @@ this.pageUpdated = !this.pageUpdated;
 ```
 
 ## CSS configurations
-- Last thing for css.
+- You must put this classes.
 - !important you must style your "th in thead" => in that class "thStyles"
 - !important you must style your "height And width" for th and td => in that class "heightAndwidth"
 
