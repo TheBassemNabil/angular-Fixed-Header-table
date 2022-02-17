@@ -6,18 +6,26 @@ Live demo can be found here =>
 
 [Demo on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-tsljzh)
 
-## Usage
+## Installation
 
-- Put the directive "BassFixedHeader.directive.ts" to your app.
-- dont forget to add it in declarations in your app.module.ts
-
+Install the npm package.
+```
+  npm i angular-fixed-header-table
+```
+Import module:
 ```ts
-@NgModule({
-  declarations: [	
-    BassFixedHeaderDirective,
-    .....
+  import { NgFixedHeaderModule } from 'angular-fixed-header-table';
+
+  @NgModule({
+      imports: [
+      NgFixedHeaderModule
+      .....
+      ]
+  })
 ```
 
+
+## Usage
 
 - add div with id "fixed Items", prefer it before app-root.
 
@@ -31,8 +39,8 @@ Live demo can be found here =>
 
 
 
-- add the directive selector on div that have the table and give it id of your table, thead, thead tr and  tbody
-
+- add the directive selector (bassFixedHeaderDirective) on div that have the table, and give it id of your table, thead, thead tr and  tbody
+  ex:
 ```html
 <div class="overflow-auto p-2 " bassFixedHeaderDirective [tableId]="'cutomTableId'"
     [tableTHeadId]="'cutomTableTHeadId'" [tableTHeadTrId]="'cutomTableTHeadTrId'"
@@ -56,14 +64,15 @@ Live demo can be found here =>
 
 
 
-- pageUpdated input you can toggle it when u want to reint the directive
+- pageUpdated input you can toggle it when u want to re-int the directive.
+    like the table columns changed.
 
 ```ts
 this.pageUpdated = !this.pageUpdated;
 ```
 
 ## CSS configurations
-- You must put this classes.
+- You must include this styles.
 - !important you must style your "th in thead" => in that class "thStyles"
 - !important you must style your "height And width" for th and td => in that class "heightAndwidth"
 
