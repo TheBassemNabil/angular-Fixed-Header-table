@@ -43,10 +43,10 @@ Import module:
 
 
 
-- add the directive selector (bassFixedHeaderDirective) on div that have the table, and give it id of your table, thead, thead tr and  tbody
+- add the directive selector (bassFixedHeader) on div that have the table, and give it id of your table, thead, thead tr and  tbody
   ex:
 ```html
-<div class="overflow-auto p-2 " bassFixedHeaderDirective [tableId]="'cutomTableId'"
+<div class="overflow-auto p-2 " bassFixedHeader [tableId]="'cutomTableId'"
     [tableTHeadId]="'cutomTableTHeadId'" [tableTHeadTrId]="'cutomTableTHeadTrId'"
     [tableTBodyId]="'cutomTableTBodyId'" [pageUpdated]="pageUpdated" [pageDestored]="pageDestored">
     <table id="cutomTableId" class="table table-striped table-bordered table-hover">
