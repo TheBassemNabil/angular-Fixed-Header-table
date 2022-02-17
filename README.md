@@ -7,7 +7,7 @@ Live demo can be found here =>
 [Live Demo "StackBlitz ⚡️"](https://stackblitz.com/edit/angular-ivy-tsljzh)
 
 
-<a href="https://www.npmjs.com/package/angular-fixed-header-table"><img src="https://img.shields.io/badge/npm-v1.1-blue" alt="npm latest version" ></a>
+<a href="https://www.npmjs.com/package/angular-fixed-header-table"><img src="https://img.shields.io/badge/npm-v1.0.0-blue" alt="npm latest version" ></a>
 
 
 ## Installation
