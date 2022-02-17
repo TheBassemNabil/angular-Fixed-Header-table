@@ -2,7 +2,7 @@
 
 angular-Fixed-Header-table is A simple solution for fixed header in any table.
 
-Live demo can be found here =>
+
 
 [Live Demo "StackBlitz ⚡️"](https://stackblitz.com/edit/angular-ivy-tsljzh)
 
