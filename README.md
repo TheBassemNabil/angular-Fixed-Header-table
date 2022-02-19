@@ -112,3 +112,12 @@ this.pageUpdated = !this.pageUpdated;
     padding: 0.75rem;
   }
 ```
+
+
+## Directive options ( inputs )
+- tableId        : give it your table Id.
+- tableTHeadId   : give it your table thead Id.
+- tableTBodyId   : give it your table tbody Id.
+- tableTHeadTrId : give it your table thead => tr Id. that will be fixed.
+- pageUpdated    : toggle it when tab changed, or u want to resize the header again.
+- pageDestored   : toggle it when tab destored.
